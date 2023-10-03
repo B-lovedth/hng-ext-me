@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+html {
+  border-radius: 50%;
+}
+.panel-container {
+  position:absolute;
+  bottom:5%;
+  right:5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 3rem;
+    border: 10px solid #ffffffe0;
+    background: #000;
+    border-radius: 72px;
+    gap: 10px;
+}
+
+.panel-container .options {
+  display: flex;
+  gap: 1rem;
+}
+.panel-container .time {
+  color: #fff;
+  font-size:2rem;
+}
+.panel-container span{
+    color: #fff;
+    font-size:5rem;
+    font-weight: lighter;
+}
+.panel-container .options .option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  flex-direction: column;
+}
+.panel-container .options .option i {
+  font-size: 20px;
+  color: #000;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fff;
+}
+.panel-container .options .option p {
+  color: #fff;
+  font-size: 12px;
+}
+.fa-solid.fa-trash{
+    color: #eee !important;
+    background-color: #333 !important;
+}
